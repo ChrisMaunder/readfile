@@ -2,8 +2,6 @@
 
 How to read a text file on a server using VBScript in ASP
 
-- [Download readfile.zip - 1.2 KB](https://raw.githubusercontent.com/ChrisMaunder/readfile/master/docs/assets/readfile.zip)
-
 One of the most important tasks in any programming language is the ability to read and write files. The steps involved in ASP are no different than many other languages:
 
 1. Specify the location of the file
@@ -20,7 +18,7 @@ In the following I present two different methods. The first method gets a file o
 
 ### Method 1:
 
-```cpp
+```asp
 <% Option Explicit
 
 Const Filename = "/readme.txt"    ' file to read
@@ -81,7 +79,7 @@ Set FSO = nothing
 
 ### Method 2:
 
-```cpp
+```asp
 <% Option Explicit
 
 Const Filename = "/readme.txt"    ' file to read
